@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgreen"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginLeft="@dimen/_12sdp"
+                    android:layout_marginRight="@dimen/_12sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:src="@drawable/icon"></ImageView>
+                <Button
+                    android:id="@+id/btnlogin"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/shape1"
+                    android:text="LOGIN"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif"
+                    android:textSize="@dimen/_13sdp" />
+        <Button
+            android:id="@+id/btnaccount"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@drawable/shape1"
+            android:text="@string/create_account"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="@dimen/_13sdp" />
+        <GridLayout
+            android:id="@+id/GridLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_15sdp"
+            android:layout_margin="@dimen/_15sdp"
+            android:background="@drawable/shape2"
+            android:columnCount="2"
+            android:orientation="horizontal"
+            android:rowCount="2"
+            tools:context=".GridXMLActivity">
+
+            <Button
+                android:id="@+id/btnplay"
+                android:layout_gravity="left|top"
+                android:layout_margin="@dimen/_10sdp"
+                android:width="@dimen/_100sdp"
+                android:height="@dimen/_50sdp"
+                android:background="@drawable/shape1"
+                android:textAllCaps="false"
+                android:text="@string/play" />
+
+            <Button
+                android:id="@+id/btninfo"
+                android:layout_gravity="left|top"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@drawable/shape1"
+                android:width="@dimen/_100sdp"
+                android:height="@dimen/_50sdp"
+                android:text="@string/info" />
+
+            <Button
+                android:id="@+id/btnabout"
+                android:layout_gravity="left|top"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@drawable/shape1"
+                android:width="@dimen/_100sdp"
+                android:height="@dimen/_50sdp"
+                android:text="@string/about" />
+
+            <Button
+                android:id="@+id/btnfaq"
+                android:layout_gravity="left|top"
+                android:background="@drawable/shape1"
+                android:layout_margin="@dimen/_10sdp"
+                android:width="@dimen/_100sdp"
+                android:height="@dimen/_50sdp"
+                android:text="@string/faq" />
+        </GridLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_marginLeft="@dimen/_12sdp"
+            android:layout_marginRight="@dimen/_12sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:src="@drawable/home"></ImageView>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

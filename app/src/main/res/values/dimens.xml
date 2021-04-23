@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="editTextFont">20dp</dimen>
+    <dimen name="btnTextFont">18dp</dimen>
+
+    <dimen name="btnWidth">38dp</dimen>
+    <dimen name="btnHeight">38dp</dimen>
+    <dimen name="btnLeftMargin">15dp</dimen>
+</resources>

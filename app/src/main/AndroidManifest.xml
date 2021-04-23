@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lotto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lotto">
+        <activity android:name=".about"></activity>
+        <activity android:name=".faq" />
+        <activity android:name=".info" />
+        <activity android:name=".play" />
+        <activity android:name=".result" />
+        <activity android:name=".add_money" />
+        <activity android:name=".home" />
+        <activity android:name=".buy_ticket" />
+        <activity android:name=".create_account" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

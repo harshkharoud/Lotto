@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgreen"
+    tools:context=".add_money">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_12sdp"
+            android:layout_marginRight="@dimen/_12sdp"
+            android:src="@drawable/icon"></ImageView>
+
+            <TextView
+                android:id="@+id/tvsetamount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_attach_money_white"
+                android:layout_gravity="right"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/comfortaa_light"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/money"
+            android:layout_gravity="center"
+            android:padding="@dimen/_15sdp"
+            android:textColor="@color/blue"
+            android:fontFamily="@font/comfortaa_light"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape1"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/amount"
+                android:inputType="number"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+            <EditText
+                android:id="@+id/etamount"
+                android:layout_width="@dimen/_250sdp"
+                android:drawableLeft="@drawable/ic_attach_money"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_border"
+                android:inputType="number"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:fontFamily="sans-serif"
+                android:textSize="@dimen/editTextFont"/>
+
+            <Button
+                android:id="@+id/btnadd"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="wrap_content"
+                android:text="@string/add"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_15sdp"
+                android:background="@drawable/shape2"
+                android:textSize="@dimen/btnTextFont"/>
+
+            <TextView
+                android:id="@+id/tvback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/blue"
+                android:layout_margin="@dimen/_10sdp"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

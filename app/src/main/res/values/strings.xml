@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Lotto</string>
+    <string name="buy_ticket">Buy Ticket</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="thanks_header">Thank you</string>
+    <string name="about_content">This app is for the use of adults in the Province of Ontario, Canada.  Lottery and charitable gaming products are only available to those persons 18 years of age and over, while casinos and slot facilities in Ontario are restricted to those persons 19 years of age and over.</string>
+    <string name="thanks_message">Your registration has been completed!</string>
+    <string name="info">Info</string>
+    <string name="faq">FAQ</string>
+    <string name="about">About</string>
+    <string name="play">How to play</string>
+    <string name="money">Add Money</string>
+    <string name="create_account">Create an account</string>
+    <string name="add">Add</string>
+    <string name="login">Login</string>
+    <string name="submit">Submit</string>
+    <string name="amount">Amount</string>
+    <string name="password">Password</string>
+    <string name="mobile">Mobile No.</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="back">Back to home</string>
+    <string name="result_submit">Check result</string>
+    <string name="play1">1. Minimum Amount in your account should be $5.</string>
+    <string name="play2">2. Select six numbers from 1 to 50 on game panel.</string>
+    <string name="play3">3. You will get $100000 if your picked number is similar to winning number.</string>
+    <string name="play4">4. The amount will be added in your wallet amount.</string>
+    <string name="faq1">Question 1. How can i add money?</string>
+    <string name="faqans1">You can add money to click on Add Money Button on Home Screen.</string>
+    <string name="faq2">Question 2. How can i get winning price?</string>
+    <string name="faqans2">Your winning price is automatically added in your wallet.</string>
+    <string name="faq3">Question 3. How many numbers i can select for buy a ticket? </string>
+    <string name="faqans3">You can select any 6 numbers in a single ticket.</string>
+    <string name="faq4">Question 4. When i will get the result of my ticket? </string>
+    <string name="faqans4">You will get the result immediately.</string>
+    <string name="info_content">You can purchase ticket any time. There are no restrictions at all.</string>
+    <string name="info_content2">You can buy ticket with the cost of $5.</string>
+    <string name="info_content3">You can buy ticket with a simple steps.</string>
+    <string name="info_content4">Money will be credit in your account immediately.</string>
+
+
+    <string name="check_money">Check money</string>
+
+
+    <style name="customfont">
+        <item name="android:fontFamily">@font/comfortaa_light</item>
+    </style>
+
+</resources>
+
